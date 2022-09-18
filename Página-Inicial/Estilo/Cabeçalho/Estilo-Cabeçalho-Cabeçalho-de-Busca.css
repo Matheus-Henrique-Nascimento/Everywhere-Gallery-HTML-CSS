@@ -1,0 +1,104 @@
+
+/* --- Cabeçalho de Busca. */
+
+#Cabeçalho-de-Busca{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+}
+
+#Cabeçalho-de-Busca-Título{
+    color: var(--Cor-Principal);
+    padding: 16px;
+    font-family: var(--Fonte-Cabeçalho-de-Busca-Título-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Busca-Título-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Busca-Título-Peso);
+}
+
+#Cabeçalho-de-Busca-Subtítulo{
+    color: var(--Cor-Principal);
+    padding: 16px;
+    font-family: var(--Fonte-Cabeçalho-de-Busca-Subtítulo-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Busca-Subtítulo-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Busca-Subtítulo-Peso);
+}
+
+#Área-do-Buscador{
+    display: flex;
+    position: relative;
+    width: 400px;
+}
+
+#Buscador{
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    outline: none;
+    padding: 8px;
+    width: 400px;
+}
+
+#Buscador[type="text"]{
+    color: var(--Cor-Terceária);
+    font-family: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Peso);
+}
+
+#Buscador::placeholder{
+    color: var(--Cor-Terceária);
+    font-family: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Busca-Placeholder-Peso);
+}
+
+#Ícone-de-Lupa{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#Cabeçalho-de-Busca-Descrição{
+    color: var(--Cor-Principal);
+    padding: 16px;
+    font-family: var(--Fonte-Cabeçalho-de-Busca-Detalhes-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Busca-Detalhes-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Busca-Detalhes-Peso);
+}
+
+#Imagem-de-Fundo-do-Cabeçalho{
+    left: 0px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0px 20%;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    z-index: -1;
+}
+
+/* --- Responsividade. */
+
+@media only screen and (max-width: 750px){
+    #Cabeçalho-de-Busca-Título{
+        color: var(--Cor-Principal);
+        padding: 16px;
+        font-family: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Família);
+        font-size: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Tamanho);
+        font-weight: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Peso);
+    }
+
+    #Área-do-Buscador{
+        width: 300px;
+    }
+
+    #Buscador{
+        width: 300px;
+    }
+}

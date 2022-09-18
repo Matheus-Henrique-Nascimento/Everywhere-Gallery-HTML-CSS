@@ -1,0 +1,22 @@
+
+/* --- Organização dos Botões. */
+
+#Área-dos-Botões{
+    display: grid;
+    justify-content: center;
+    margin: 0px 0px 64px 0px;
+}
+
+/* --- Design dos Botões. */
+
+#Botão{
+    background-color: var(--Cor-Secundária);
+    border: none;
+    border-radius: 8px;
+    color: var(--Cor-Principal);
+    cursor: pointer;
+    font-family: var(--Fonte-Corpo-Botão-Família);
+    font-size: var(--Fonte-Corpo-Botão-Tamanho);
+    font-weight: var(--Fonte-Corpo-Botão-Peso);
+    padding: 16px;
+}

@@ -1,0 +1,118 @@
+
+/* --- Organização do Rodapé. */
+
+#Rodapé{
+    align-items: center;
+    background-color: var(--Cor-Secundária);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+
+/* --- Links do Rodapé. */
+
+#Links-do-Rodapé{
+    display: flex;
+}
+
+#Links-do-Rodapé li{
+    margin: 0px 32px 0px 0px;
+}
+
+#Links-do-Rodapé li:last-child{
+    margin: 0px 0px 0px 0px;
+}
+
+#Links-do-Rodapé a{
+    color: var(--Cor-Principal);
+    font-family: var(--Fonte-Rodapé-Família);
+    font-size: var(--Fonte-Rodapé-Tamanho);
+    font-weight: var(--Fonte-Rodapé-Peso);
+}
+
+#Propriedade-Intelectual{
+    display: flex;
+}
+
+#Propriedade-Intelectual p{
+    color: var(--Cor-Principal);
+    font-family: var(--Fonte-Rodapé-Família);
+    font-size: var(--Fonte-Rodapé-Tamanho);
+    font-weight: var(--Fonte-Rodapé-Peso);
+    margin: 0px 0px 0px 16px;
+}
+
+#Ícone-de-Barra-Fina{
+    margin: 0px 0px 0px 16px;
+}
+
+/* --- Responsividade. */
+
+#Área-do-Menu{
+    display: none;
+}
+
+#Propriedade-Intelectual-Responsiva{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px){
+    #Área-dos-Links{
+        display: none;
+    }
+
+    #Propriedade-Intelectual{
+        display: none;
+    }
+
+    #Área-do-Menu{
+        display: block;
+    }
+
+    #Propriedade-Intelectual-Responsiva{
+        display: flex;
+    }
+
+    #Propriedade-Intelectual-Responsiva p{
+        color: var(--Cor-Principal);
+        font-family: var(--Fonte-Rodapé-Família);
+        font-size: var(--Fonte-Rodapé-Tamanho);
+        font-weight: var(--Fonte-Rodapé-Peso);
+        margin: 0px 0px 0px 16px;
+    }
+
+    #Ícone-de-Menu{
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #Área-dos-Links{
+        display: none;
+    }
+
+    #Propriedade-Intelectual{
+        display: none;
+    }
+
+    #Área-do-Menu{
+        display: block;
+    }
+
+    #Propriedade-Intelectual-Responsiva{
+        display: flex;
+    }
+
+    #Propriedade-Intelectual-Responsiva p{
+        color: var(--Cor-Principal);
+        font-family: var(--Fonte-Rodapé-Família);
+        font-size: var(--Fonte-Rodapé-Tamanho);
+        font-weight: var(--Fonte-Rodapé-Peso);
+        margin: 0px 0px 0px 16px;
+    }
+
+    #Ícone-de-Menu{
+        height: 16px;
+    }
+}

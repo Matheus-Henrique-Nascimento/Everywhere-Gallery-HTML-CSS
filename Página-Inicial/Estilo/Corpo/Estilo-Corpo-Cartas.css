@@ -1,0 +1,112 @@
+
+/* --- Cartas Longas. */
+
+.Carta-Longa{
+    text-align: center;
+    width: 300px;
+}
+
+#Imagem-da-Carta-Longa{
+    cursor: pointer;
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#Ícones-da-Carta{
+    display: flex;
+    justify-content: right;
+    margin: 16px 0px;
+}
+
+#Ícones-da-Carta li{
+    cursor: pointer;
+    margin: 0px 0px 0px 16px;
+}
+
+#Ícones-da-Carta li:first-child{
+    margin: 0px 0px 0px 0px;
+}
+
+.Carta-Longa h3{
+    color: var(--Cor-Secundária);
+    cursor: pointer;
+    font-family: var(--Fonte-Corpo-Carta-Família);
+    font-size: var(--Fonte-Corpo-Carta-Título-Tamanho);
+    font-weight: var(--Fonte-Corpo-Carta-Título-Peso);
+    margin: 0px 0px 16px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Carta-Longa p{
+    color: var(--Cor-Secundária);
+    font-family: var(--Fonte-Corpo-Carta-Família);
+    font-size: var(--Fonte-Corpo-Carta-Descrição-Tamanho);
+    font-weight: var(--Fonte-Corpo-Carta-Detalhes-Peso);
+    margin: 0px 0px 16px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Carta-Longa p:last-child{
+    margin: 0px 0px 0px 0px;
+}
+
+/* --- Cartas Curtas. */
+
+.Carta-Curta{
+    text-align: center;
+    width: 300px;
+}
+
+#Imagem-da-Carta-Curta{
+    cursor: pointer;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#Ícones-da-Carta{
+    display: flex;
+    justify-content: right;
+    margin: 16px 0px;
+}
+
+#Ícones-da-Carta li{
+    cursor: pointer;
+    margin: 0px 0px 0px 16px;
+}
+
+#Ícones-da-Carta li:first-child{
+    margin: 0px 0px 0px 0px;
+}
+
+.Carta-Curta h3{
+    color: var(--Cor-Secundária);
+    cursor: pointer;
+    font-family: var(--Fonte-Corpo-Carta-Família);
+    font-size: var(--Fonte-Corpo-Carta-Título-Tamanho);
+    font-weight: var(--Fonte-Corpo-Carta-Título-Peso);
+    margin: 0px 0px 16px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Carta-Curta p{
+    color: var(--Cor-Secundária);
+    font-family: var(--Fonte-Corpo-Carta-Família);
+    font-size: var(--Fonte-Corpo-Carta-Descrição-Tamanho);
+    font-weight: var(--Fonte-Corpo-Carta-Detalhes-Peso);
+    margin: 0px 0px 16px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Carta-Curta p:last-child{
+    margin: 0px 0px 0px 0px;
+}

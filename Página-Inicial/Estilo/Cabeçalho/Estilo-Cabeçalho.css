@@ -1,0 +1,13 @@
+
+/* --- Links para a morfologia da cabeçalho. */
+
+@import url('../Cabeçalho/Estilo-Cabeçalho-Barra-de-Navegação.css');
+@import url('../Cabeçalho/Estilo-Cabeçalho-Cabeçalho-de-Busca.css');
+
+/* --- Organização do Cabeçalho. */
+
+#Cabeçalho{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}

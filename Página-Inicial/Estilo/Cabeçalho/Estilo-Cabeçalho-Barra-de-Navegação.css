@@ -1,0 +1,75 @@
+
+/* --- Barra de Navegação. */
+
+#Cabeçalho-de-Navegação{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+}
+
+#Logo{
+    color: var(--Cor-Principal);
+    font-family: var(--Fonte-Cabeçalho-de-Navegação-Logo-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Navegação-Logo-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Navegação-Logo-Peso);
+}
+
+#Links-do-Cabeçalho{
+    display: flex;
+}
+
+#Links-do-Cabeçalho li{
+    margin: 0px 0px 0px 32px;
+}
+
+#Links-do-Cabeçalho li:first-child{
+    margin: 0px 0px 0px 0px;
+}
+
+#Links-do-Cabeçalho a{
+    color: var(--Cor-Principal);
+    font-family: var(--Fonte-Cabeçalho-de-Navegação-Links-Família);
+    font-size: var(--Fonte-Cabeçalho-de-Navegação-Links-Tamanho);
+    font-weight: var(--Fonte-Cabeçalho-de-Navegação-Links-Peso);
+}
+
+/* --- Responsividade. */
+
+#Cabeçalho-de-Navegação-Responsivo{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px){
+    #Cabeçalho-de-Navegação{
+        display: none;
+    }
+
+    #Cabeçalho-de-Navegação-Responsivo{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 64px;
+    }
+
+    #Ícone-de-Menu{
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #Cabeçalho-de-Navegação{
+        display: none;
+    }
+
+    #Cabeçalho-de-Navegação-Responsivo{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 64px;
+    }
+
+    #Ícone-de-Menu{
+        height: 16px;
+    }
+}

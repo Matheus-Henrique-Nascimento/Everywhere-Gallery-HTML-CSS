@@ -1,0 +1,91 @@
+
+/* --- Links das tipografias usadas no site. */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+
+/* --- Links para a morfologia do CSS. */
+
+@import url('../Cabeçalho/Estilo-Cabeçalho.css');
+@import url('../Corpo/Estilo-Corpo.css');
+@import url('../Rodapé/Estilo-Rodapé.css');
+
+:root{
+
+    /* --- Escolha de cores para o site. */
+
+    --Cor-Principal: #FFFFFF;
+    --Cor-Secundária: #343434;
+    --Cor-Terceária: #B5B5B5;
+
+    /* --- Informações tipográficas para o cabeçalho. */
+
+    /* ------ Logo. */
+    
+    --Fonte-Cabeçalho-de-Navegação-Logo-Família: 'Playfair Display', serif;
+    --Fonte-Cabeçalho-de-Navegação-Logo-Peso: 500;
+    --Fonte-Cabeçalho-de-Navegação-Logo-Tamanho: 16px;
+
+    /* ------ Links. */
+
+    --Fonte-Cabeçalho-de-Navegação-Links-Família: 'Cormorant Garamond', serif;
+    --Fonte-Cabeçalho-de-Navegação-Links-Peso: 500;
+    --Fonte-Cabeçalho-de-Navegação-Links-Tamanho: 16px;
+
+    /* ------ Título da sessão de pesquisa. */
+
+    --Fonte-Cabeçalho-de-Busca-Título-Família: 'Playfair Display', serif;
+    --Fonte-Cabeçalho-de-Busca-Título-Peso: 500;
+    --Fonte-Cabeçalho-de-Busca-Título-Tamanho: 32px;
+
+    /* ------ Título responsivo da sessão de pesquisa. */
+
+    --Fonte-Cabeçalho-de-Busca-Responsivo-Título-Família: 'Playfair Display', serif;
+    --Fonte-Cabeçalho-de-Busca-Responsivo-Título-Peso: 500;
+    --Fonte-Cabeçalho-de-Busca-Responsivo-Título-Tamanho: 24px;
+
+    /* ------ Subtítulo da sessão de pesquisa. */
+
+    --Fonte-Cabeçalho-de-Busca-Subtítulo-Família: 'Crimson Text', serif;
+    --Fonte-Cabeçalho-de-Busca-Subtítulo-Peso: 400;
+    --Fonte-Cabeçalho-de-Busca-Subtítulo-Tamanho: 16px;
+
+    /* ------ Placeholder do buscador de pesquisa. */
+
+    --Fonte-Cabeçalho-de-Busca-Placeholder-Família: 'Crimson Text', serif;
+    --Fonte-Cabeçalho-de-Busca-Placeholder-Peso: 400;
+    --Fonte-Cabeçalho-de-Busca-Placeholder-Tamanho: 12px;
+
+    /* ------ Detalhes da sessão de pesquisa. */
+
+    --Fonte-Cabeçalho-de-Busca-Detalhes-Família: 'Crimson Text', serif;
+    --Fonte-Cabeçalho-de-Busca-Detalhes-Peso: 400;
+    --Fonte-Cabeçalho-de-Busca-Detalhes-Tamanho: 12px;
+
+    /* --- Informações tipográficas para o cabeçalho. */
+
+    /* --- Informações tipográficas para o corpo. */
+
+    /* ------ Cartas. */
+
+    --Fonte-Corpo-Carta-Família: 'Crimson Text', serif;
+    --Fonte-Corpo-Carta-Título-Peso: bold;
+    --Fonte-Corpo-Carta-Descrição-Peso: 400;
+    --Fonte-Corpo-Carta-Título-Tamanho: 16px;
+    --Fonte-Corpo-Carta-Descrição-Tamanho: 14px;
+
+    /* ------ Botões. */
+
+    --Fonte-Corpo-Botão-Família: 'Cormorant Garamond', serif;
+    --Fonte-Corpo-Botão-Peso: 500;
+    --Fonte-Corpo-Botão-Tamanho: 16px;
+
+    /* --- Informações tipográficas para o corpo. */
+
+    /* --- Informações tipográficas para o rodapé. */
+
+    --Fonte-Rodapé-Família: 'Cormorant Garamond', serif;
+    --Fonte-Rodapé-Peso: 500;
+    --Fonte-Rodapé-Tamanho: 16px;
+}
