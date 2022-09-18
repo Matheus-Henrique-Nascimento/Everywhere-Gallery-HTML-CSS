@@ -101,13 +101,3 @@
         width: 300px;
     }
 }
-
-@media only screen and (max-width: 450px){
-    #Área-do-Buscador{
-        width: 150px;
-    }
-
-    #Buscador{
-        width: 150px;
-    }
-}
