@@ -109,3 +109,13 @@
 .Carta-Curta p:last-child{
     margin: 0px 0px 0px 0px;
 }
+
+@media only screen and (max-width: 450px){
+    .Carta-Longa{
+        width: 250px;
+    }
+
+    .Carta-Curta{
+        width: 250px;
+    }
+}
