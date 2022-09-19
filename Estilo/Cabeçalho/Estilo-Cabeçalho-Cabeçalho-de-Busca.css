@@ -101,3 +101,21 @@
         width: 300px;
     }
 }
+
+@media only screen and (max-width: 450px){
+    #Cabeçalho-de-Busca-Título{
+        color: var(--Cor-Principal);
+        padding: 16px;
+        font-family: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Família);
+        font-size: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Tamanho);
+        font-weight: var(--Fonte-Cabeçalho-de-Busca-Responsivo-Título-Peso);
+    }
+
+    #Área-do-Buscador{
+        width: 280px;
+    }
+
+    #Buscador{
+        width: 280px;
+    }
+}

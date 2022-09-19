@@ -87,6 +87,44 @@
 }
 
 @media only screen and (max-width: 750px){
+    #Rodapé{
+        padding: 16px 32px;
+    }
+
+    #Área-dos-Links{
+        display: none;
+    }
+
+    #Propriedade-Intelectual{
+        display: none;
+    }
+
+    #Área-do-Menu{
+        display: block;
+    }
+
+    #Propriedade-Intelectual-Responsiva{
+        display: flex;
+    }
+
+    #Propriedade-Intelectual-Responsiva p{
+        color: var(--Cor-Principal);
+        font-family: var(--Fonte-Rodapé-Família);
+        font-size: var(--Fonte-Rodapé-Tamanho);
+        font-weight: var(--Fonte-Rodapé-Peso);
+        margin: 0px 0px 0px 16px;
+    }
+
+    #Ícone-de-Menu{
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #Rodapé{
+        padding: 16px 16px;
+    }
+
     #Área-dos-Links{
         display: none;
     }
